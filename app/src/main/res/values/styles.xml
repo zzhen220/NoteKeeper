@@ -8,6 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--<style name="WeiredEditText" parent="Widget.AppCompat.EditText">-->
+        <!--<item name="android:textColor">@android:color/holo_green_dark</item>-->
+        <!--<item name="android:textColorHint">@android:color/holo_red_dark</item>-->
+    <!--</style>-->
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -18,4 +23,13 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="CourseTitle" parent="android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/zz_red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AddFab" parent="@style/Widget.Design.FloatingActionButton">
+        <item name="srcCompat">@drawable/ic_add_circle_black_24dp</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
 </resources>

@@ -26,11 +26,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Note title"
+        android:hint="@string/note_title_hint"
         android:inputType="textMultiLine"
-        app:layout_constraintEnd_toEndOf="@+id/text_note_text"
-        app:layout_constraintStart_toStartOf="@+id/text_note_text"
-        app:layout_constraintTop_toBottomOf="@+id/text_note_text" />
+        app:layout_constraintEnd_toEndOf="@+id/spinner_courses"
+        app:layout_constraintStart_toStartOf="@+id/spinner_courses"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_courses" />
 
     <EditText
         android:id="@+id/text_note_text"
@@ -38,9 +38,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Note text"
+        android:hint="@string/note_text_hint"
         android:inputType="textMultiLine"
-        app:layout_constraintEnd_toEndOf="@+id/spinner_courses"
-        app:layout_constraintStart_toStartOf="@+id/spinner_courses"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_courses" />
+        app:layout_constraintEnd_toEndOf="@id/text_note_title"
+        app:layout_constraintStart_toStartOf="@id/text_note_title"
+        app:layout_constraintTop_toBottomOf="@+id/text_note_title" />
+
 </android.support.constraint.ConstraintLayout>
